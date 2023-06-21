@@ -73,7 +73,7 @@ const RegistrationScreen = () => {
                   />
                 </TouchableOpacity>
               </View>
-              <Text style={{ ...title, marginTop: 92 }}>Реєстрація</Text>
+              <Text style={{ ...title, fontFamily: 'Roboto_500Medium', marginTop: 92 }}>Реєстрація</Text>
               <TextInput
                 style={input}
                 placeholder="Логін"

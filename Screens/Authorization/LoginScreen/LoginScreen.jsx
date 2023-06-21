@@ -50,7 +50,7 @@ const LoginScreen = () => {
               behavior={Platform.OS === "ios" ? "padding" : "height"}
               style={keyboardView}
             >
-              <Text style={title}>Увійти</Text>
+              <Text style={{ ...title, fontFamily: 'Roboto_500Medium'}}>Увійти</Text>
               <TextInput
                 style={{ ...input }}
                 placeholder="Адреса електронної пошти"
