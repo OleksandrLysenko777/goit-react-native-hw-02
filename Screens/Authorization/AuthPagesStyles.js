@@ -27,8 +27,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 25,
  
   },
-  title: {
-    fontFamily: 'Roboto',
+  title: {    
     fontStyle: 'normal',
     fontWeight: 500,
     fontSize: 30,
